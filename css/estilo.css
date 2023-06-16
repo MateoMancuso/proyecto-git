@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header {
+background-color: rgb(82, 109, 130);
+padding: 1rem;
+border: 3px solid black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+}
+
+a {
+text-decoration: none;
+color: rgb(0, 0, 0);
+padding: 1rem
+;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+.CineSerieZone {
+	color: rgb(0, 0, 0);
+}
+
+.nav-list{
+	display: flex;
+	
+}
+
+/* -----Fin heder----- */
+/* -----incio main---- */
+
+
+.inicio-mein{
+background-color: rgb(157, 178, 191);
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.intro-inicio{
+	background-color: rgb(157, 178, 191);
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+a {
+	font-size: 20px;
+}
+
+.letra-intro-inicio {
+	font-size: 25px;
+}
+.intro-inicio{
+	border: 2px solid black ;
+	padding: 2rem
+	;
+	display: flex;
+	flex-direction: row;
+}
+.intro-a{
+	border: 1px solid black
+}
+
+
+.main-princi {
+	display: flex;
+	border: 2px solid black;
+	width: 100%;
+    height: 300px;
+	overflow: hidden;
+}
+
+.el-caballero-de-la-noche{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: black solid 2px ;
+	width: 900px;
+    height: 400px;
+}
+
+.game-of-Thrones{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: black solid 2px ;
+	width: 900px;
+    height: 400px;
+}
+
+.caracortada {	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: black solid 2px ;
+	width: 900px;
+    height: 400px;
+}
+
+.breaking-bad {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: black solid 2px ;
+	width: 900px;
+    height: 400px;
+}
+.el-padrino {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: black solid 2px ;
+	width: 900px;
+    height: 400px;
+}
+
+
+
+/* ----inicio footer---- */
+
+footer {
+	background-color:rgb(82, 109, 130);
+	display: flex;
+	justify-content: space-around;
+	border: 3px black solid;
+	width: 100%;
+	height: 300px;
+}
+
+.terminos-condiciones	{
+	background-color:rgb(82, 109, 130);
+	display: flex;
+	flex-direction: column;
+	border: 3px rgb(82, 109, 130) solid;
+	width: 200px;
+	height: 250px;
+}
+
+.informacion {
+	background-color:rgb(82, 109, 130);
+	display: flex;
+	flex-direction: column;
+	border: 3px rgb(82, 109, 130) solid;
+	width: 200px;
+	height: 250px;
+}
+
+.encontranos-en {
+	background-color:rgb(82, 109, 130);
+	display: flex;
+	flex-direction: column;
+	border: 3px rgb(82, 109, 130) solid;
+	width: 200px;
+	height: 250px;
+}
+
+/*----fin footer---- */
+
+/* ----Top 1 2 3 4 y 5----- */
+
+.titulo-p-batman {	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+main{
+	background-color:rgb(157, 178, 191) ;
+}
+.trailer {
+	display: flex;
+	align-content: flex-start;
+	flex-direction: column;
+}
+
+.principal-batman{
+ font-size: 20px;
+ display: flex;
+ align-content: flex-start;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.plataformas-batman{
+	background-color: white;
+}
+
+.comentario-batman{
+	display: flex;
+}
+
+.informacion-elenco{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* ----inicia sesiom---- */
+
+.inicia-sesion{
+	background-color: rgb(157, 178, 191);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	white-space:  pre-wrap ;
+}
+
+.nada {
+	background-color: rgb(157, 178, 191);
+	border: none;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* ----registrate---- */
+
+.registrate{
+	background-color: rgb(157, 178, 191);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	white-space:  pre-wrap ;
+}
+
+
+.registrate.html {
+	background-color: rgb(157, 178, 191);
+	
+}
