@@ -4,16 +4,10 @@
 	box-sizing: border-box;
 }
 
-
-header {
-background-color: rgb(82, 109, 130);
-padding: 1rem;
-border: 3px solid black;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 1rem;
+p {
+	color: black;
 }
+
 
 a {
 text-decoration: none;
@@ -41,15 +35,15 @@ ol {
 
 
 .inicio-mein{
-background-color: rgb(157, 178, 191);
-color: white;
+background-color: rgba(255, 255, 255, 0);
+color: rgb(0, 0, 0);
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 .intro-inicio{
-	background-color: rgb(157, 178, 191);
-color: white;
+	background-color: rgba(255, 255, 255, 0);
+color: rgb(248, 248, 248);
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -66,8 +60,8 @@ a {
 }
 .intro-inicio{
 	border: 2px solid black ;
-	padding: 2rem
-	;
+	padding: 2rem;
+	color: black;
 	display: flex;
 	flex-direction: row;
 }
@@ -133,7 +127,7 @@ a {
 /* ----inicio footer---- */
 
 footer {
-	background-color:rgb(82, 109, 130);
+	background-color:rgb(255, 255, 255);
 	display: flex;
 	justify-content: space-around;
 	border: 3px black solid;
@@ -142,28 +136,28 @@ footer {
 }
 
 .terminos-condiciones	{
-	background-color:rgb(82, 109, 130);
+	background-color:rgb(255, 255, 255);
 	display: flex;
 	flex-direction: column;
-	border: 3px rgb(82, 109, 130) solid;
+	border: 3px rgb(255, 255, 255) solid;
 	width: 200px;
 	height: 250px;
 }
 
 .informacion {
-	background-color:rgb(82, 109, 130);
+	background-color:rgb(255, 255, 255);
 	display: flex;
 	flex-direction: column;
-	border: 3px rgb(82, 109, 130) solid;
+	border: 3px rgb(251, 252, 252) solid;
 	width: 200px;
 	height: 250px;
 }
 
 .encontranos-en {
-	background-color:rgb(82, 109, 130);
+	background-color:rgb(255, 255, 255);
 	display: flex;
 	flex-direction: column;
-	border: 3px rgb(82, 109, 130) solid;
+	border: 3px rgb(255, 255, 255) solid;
 	width: 200px;
 	height: 250px;
 }
@@ -178,7 +172,8 @@ footer {
 	flex-direction: column;
 }
 main{
-	background-color:rgb(157, 178, 191) ;
+	background-color:rgb(255, 255, 255) ;
+	color: black;
 }
 .trailer {
 	display: flex;
