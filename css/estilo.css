@@ -1,251 +1,43 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-p {
-	color: black;
+main {
+  background-color: #D4D4D4;
 }
 
+footer {
+  background-color: white;
+}
 
 a {
-text-decoration: none;
-color: rgb(0, 0, 0);
-padding: 1rem
-;
-}
-
-ul,
-ol {
-	list-style: none;
-}
-
-.CineSerieZone {
-	color: rgb(0, 0, 0);
-}
-
-.nav-list{
-	display: flex;
-	
-}
-
-/* -----Fin heder----- */
-/* -----incio main---- */
-
-
-.inicio-mein{
-background-color: #D4D4D4;
-color: rgb(0, 0, 0);
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.intro-inicio{
-	/* background-color: rgba(255, 255, 255, 0); */
-/* color: rgb(248, 248, 248); */
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-
-
-a {
-	font-size: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
 }
 
 .letra-intro-inicio {
-	font-size: 25px;
-}
-.intro-inicio{
-	/* border: 2px solid rgb(0, 0, 0) ; */
-	padding: 2rem;
-	color: black;
-	display: flex;
-	flex-direction: row;
-}
-.intro-a{
-	border: 1px solid black
+  font-size: 25px;
 }
 
-
-.main-princi {
-	display: flex;
-	border: 2px solid black;
-	width: 100%;
-    height: 300px;
-	overflow: hidden;
+body {
+  overflow-x: hidden;
 }
 
-.el-caballero-de-la-noche{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	border: rgba(0, 0, 0, 0) solid 2px ;
-	width: 900px;
-    height: 400px;
+.letra-intro-inicio {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.game-of-Thrones{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	border: rgba(0, 0, 0, 0) solid 2px ;
-	width: 900px;
-    height: 400px;
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.caracortada {	
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	border: rgba(0, 0, 0, 0) solid 2px ;
-	width: 900px;
-    height: 400px;
-}
-
-.breaking-bad {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	border: rgba(0, 0, 0, 0) solid 2px ;
-	width: 900px;
-    height: 400px;
-}
-.el-padrino {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	border: rgba(0, 0, 0, 0) solid 2px ;
-	width: 900px;
-    height: 400px;
-}
-
-
-
-/* ----inicio footer---- */
-footer i{
-    font-size: 1.5rem;
-}
-footer{
-	background-color:rgb(255, 255, 255);
-	display: flex;
-	justify-content: space-around;
-	border: 3px rgb(255, 255, 255) solid;
-	width: 100%;
-	height: 300px;
-}
-
-.terminos-condiciones	{
-	background-color:rgb(255, 255, 255);
-	display: flex;
-	flex-direction: column;
-	border: 3px rgb(255, 255, 255) solid;
-	width: 200px;
-	height: 250px;
-}
-
-.informacion {
-	background-color:rgb(255, 255, 255);
-	display: flex;
-	flex-direction: column;
-	border: 3px rgb(251, 252, 252) solid;
-	width: 200px;
-	height: 250px;
-}
-
-.encontranos-en {
-	background-color:rgb(255, 255, 255);
-	display: flex;
-	flex-direction: column;
-	border: 3px rgb(255, 255, 255) solid;
-	width: 200px;
-	height: 250px;
-}
-
-/*----fin footer---- */
-
-/* ----Top 1 2 3 4 y 5----- */
-
-.titulo-p-batman {	
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}
-main{
-	background-color:#D4D4D4 ;
-	color: black;
-}
-.trailer {
-	display: flex;
-	align-content: flex-start;
-	flex-direction: column;
-}
-
-.principal-batman{
- font-size: 20px;
- display: flex;
- align-content: flex-start;
-}
-
-.info{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.plataformas-batman{
-	background-color: white;
-}
-
-.comentario{
-	display: flex;
-}
-
-.informacion-elenco{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.top-1-2 {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-
-
-/* ----inicia sesiom---- */
-
-.inicia-sesion{
-	background-color: #D4D4D4;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	white-space:  pre-wrap ;
-}
-
-
-
-/* ----registrate---- */
-
-.registrate{
-	background-color: #D4D4D4;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	white-space:  pre-wrap ;
-}
-
-
-.registrate.html {
-	background-color: #D4D4D4;
-	
-}
-
-
-
-  
+/*# sourceMappingURL=estilo.css.map */
