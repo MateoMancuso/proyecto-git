@@ -32,6 +32,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 25px;
+}
+
+.titulo-principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .info {
@@ -48,6 +55,10 @@ body {
   align-items: center;
   padding-bottom: 230px;
   padding-top: 150px;
+}
+
+.info-peliculas {
+  padding: 50px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
